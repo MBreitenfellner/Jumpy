@@ -2,8 +2,8 @@ import Phaser from "phaser";
 import { WORLD, GROUND } from "../constants";
 import { Parallax } from "../world/Parallax";
 import { Ground } from "../world/Ground";
-import { ObstacleSystem } from "./ObstacleSystem";
-import { CrownSystem } from "./CrownSystem";
+import { ObstacleSystem } from "./Obstaclesystem";
+import { CrownSystem } from "./Crownsystem";
 import { Player } from "../entities/Player";
 
 type BindArgs = {

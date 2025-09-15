@@ -1,4 +1,4 @@
-import type { LevelParams } from "../levels/LevelParams";
+import type { LevelParams } from "../levels/Levelparams";
 import { makeRng } from "./rng";
 
 export function generateObstacleXs(p: LevelParams): number[] {

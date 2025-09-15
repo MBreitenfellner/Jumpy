@@ -1,5 +1,5 @@
 // src/services/Leaderboard.ts
-import { PlayerProfile } from "./PlayerProfile"; // ⬅️ wichtig: für den Spielernamen
+import { PlayerProfile } from "./Playerprofile"; // ⬅️ wichtig: für den Spielernamen
 
 export type LeaderboardEntry = {
   levelIndex: number;

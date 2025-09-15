@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import { ScoreStore, fmtMs, type EquipmentMode } from "../systems/ScoreStore";
+import { ScoreStore, fmtMs, type EquipmentMode } from "../systems/Scorestore";
 
 const LEVEL_COUNT = 3;
 

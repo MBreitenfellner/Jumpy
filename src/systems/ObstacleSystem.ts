@@ -1,6 +1,6 @@
 // src/systems/ObstacleSystem.ts
 import Phaser from "phaser";
-import type { LevelParams } from "../levels/LevelParams";
+import type { LevelParams } from "../levels/Levelparams";
 
 export interface ObstacleBuildOpts {
   /** Maximale Hindernishöhe (px). Alles darüber wird gekappt. */

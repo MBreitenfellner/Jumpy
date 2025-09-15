@@ -1,6 +1,6 @@
-import type { HUD } from "../ui/HUD";
+import type { HUD } from "../ui/Hud";
 import { Leaderboard, type LeaderboardEntry } from "../services/Leaderboard";
-import { PlayerProfile } from "../services/PlayerProfile";
+import { PlayerProfile } from "../services/Playerprofile";
 
 export type LevelCtx = {
   scene: Phaser.Scene;

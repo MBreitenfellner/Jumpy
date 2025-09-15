@@ -6,29 +6,29 @@ import { WORLD, GROUND, OBST } from "../constants";
 import { Player } from "../entities/Player";
 import { Parallax } from "../world/Parallax";
 import { Ground } from "../world/Ground";
-import { ObstacleSystem } from "../systems/ObstacleSystem";
-import { CrownSystem } from "../systems/CrownSystem";
-import { bindResize } from "../systems/ResizeBinder";
-import { ScoreStore } from "../systems/ScoreStore";
+import { ObstacleSystem } from "../systems/Obstaclesystem";
+import { CrownSystem } from "../systems/Crownsystem";
+import { bindResize } from "../systems/Resizebinder";
+import { ScoreStore } from "../systems/Scorestore";
 
 // Level & Track
-import { difficultyFromIndex, type LevelParams } from "../levels/LevelParams";
-import { generateObstacleXs } from "../services/TrackGenerator";
+import { difficultyFromIndex, type LevelParams } from "../levels/Levelparams";
+import { generateObstacleXs } from "../services/Trackgenerator";
 
 // UI & Persistence
-import { HUD } from "../ui/HUD";
-import { ResultPanel } from "../systems/ResultPanel";
-import { LevelManager } from "../systems/LevelManager";
-import { TopInfoBox } from "../ui/TopInfoBox";
+import { HUD } from "../ui/Hud";
+import { ResultPanel } from "../systems/Resultpanel";
+import { LevelManager } from "../systems/Levelmanager";
+import { TopInfoBox } from "../ui/Topinfobox";
 
 // Controls & PlayerController
 import { Controls } from "../input/Controls";
-import { PlayerController } from "../systems/PlayerController";
+import { PlayerController } from "../systems/Playercontroller";
 
 // Tennis (optional)
 import type { Equipment, LevelConfig } from "../modes/tennis/level-config";
 import { LEVELS } from "../modes/tennis/level-config";
-import { TennisSystem } from "../systems/TennisSystem";
+import { TennisSystem } from "../systems/Tennissystem";
 
 // Wolken
 import { Clouds } from "../world/Clouds";

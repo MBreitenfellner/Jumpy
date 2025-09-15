@@ -1,6 +1,6 @@
 import Phaser from "phaser";
-import type GameScene from "../scenes/GameScene";
-import type { SportMode } from "./SportMode";
+import type GameScene from "../scenes/Gamescene";
+import type { SportMode } from "./Sportmode";
 
 export class TennisMode implements SportMode {
   private scene!: GameScene;
